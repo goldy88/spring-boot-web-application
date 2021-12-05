@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div>
+    <div>
+        <div class="col-12">
+            <h3 class="text-center"> Add a product</h3>
+            <hr>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="/addProduct.html"> Add product </a> </li>
+                <li class="list-inline-item"><a href="/listProducts.html"> List of products </a> </li>
+            </ul>
+
+            <div class="col-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name"> Product name</label>
+                        <input type="text" name="pname" id="name" class="form-control">
+                        <label for="price"> Product price</label>
+                        <input type="text" name="price" id="price" class="form-control">
+                        <label for="desc"> Product price</label>
+                        <input type="text" name="descc" id="desc" class="form-control">
+                        <br>
+                        <button type="submit" class="btn btn-primary"> Submit </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
+
